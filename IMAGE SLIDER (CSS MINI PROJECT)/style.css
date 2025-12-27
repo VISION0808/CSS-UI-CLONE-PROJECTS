@@ -1,0 +1,46 @@
+/* Setting the background color of the body to black */
+body {
+  background-color: black;
+}
+
+/* Container to hold the images, with flexible display */
+.container {
+  margin: 100px 0 0 200px; /* Margin from top and left */
+  width: 70%; /* Container width set to 70% of the parent */
+  height: 450px; /* Container height set to 450px */
+  display: flex; /* Flexbox layout for child elements */
+  justify-content: center; /* Center align items horizontally */
+  gap: 10px; /* Add gap between images */
+}
+
+/* Heading (h1) styling */
+h1 {
+  color: white; /* Text color set to white */
+  margin-left: 17%; /* Left margin to position the heading */
+  font-size: 5vw; /* Font size set to 5% of viewport width */
+  opacity: 1; /* Initially hide the heading by making it fully transparent */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity */
+}
+
+/* Styling for the span within h1, change its color to red */
+h1 span {
+  color: red;
+}
+
+
+
+
+/* Styling for the images inside the container */
+.container img {
+  width: 10%; /* Initial width of each image set to 10% */
+  height: 100%; /* Image height set to 100% of its container */
+  object-fit: cover; /* Ensure images cover the space without distortion */
+  border-radius: 10px; /* Rounded corners on images */
+  border: 3px solid white; /* White border around each image */
+  transition: all ease-in-out 0.4s; /* Smooth transition for all properties */
+}
+
+/* Hover effect for images: When hovering, the image expands to 30% width */
+.container img:hover {
+  width: 30%; /* On hover, image width increases to 30% */
+}

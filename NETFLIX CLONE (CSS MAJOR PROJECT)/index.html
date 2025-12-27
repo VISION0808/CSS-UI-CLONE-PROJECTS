@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Link to Remixicon for icons (for example, translate and arrow icons) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Character encoding to support all types of characters -->
+    <meta charset="UTF-8" />
+    <!-- Ensures proper rendering on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the webpage, this appears in the browser tab -->
+    <title>Netflix Clone</title>
+    <!-- Link to external CSS file for custom styling -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to Google Fonts for "Poppins" font style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Main container for the page content -->
+    <div id="main">
+      <!-- Hero section for the main banner -->
+      <section id="first">
+        <div id="hero">
+          <!-- Navbar section: contains logo and buttons -->
+          <div id="navbar">
+            <!-- Left section of navbar: Netflix Logo -->
+            <div id="div-left">
+              <img src="pngwing.com.png" alt="Netflix Logo" />
+            </div>
+            <!-- Right section of navbar: Language selector and Sign-in button -->
+            <div id="div-right">
+              <!-- Language selection button -->
+              <button id="button-left">
+               <i class="ri-translate-2"></i> English
+               <i class="ri-arrow-down-s-line"></i>
+              </button>
+              <!-- Sign-in button -->
+              <button id="button-right">Sign in</button>
+            </div>
+          </div>
+
+          <!-- Full-screen background image for the hero section -->
+          <div id="image">
+            <img src="netflix image.jpg" alt="Netflix Background" />
+          </div>
+
+          <!-- Semi-transparent overlay on top of the background image -->
+          <div id="imageoverlay"></div>
+
+          <!-- Hero content card containing the welcome message -->
+          <div id="herocard">
+            <!-- Main title of the hero section -->
+            <h1 class="hero_title">
+              Unlimited Movies, TV <br />
+              Shows and More.
+            </h1>
+            <!-- Subtitle text -->
+            <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
+            <!-- Description text -->
+            <p class="hero__description">
+              Ready to watch? Enter your email to create or restart your <br />
+              membership.
+            </p>
+
+            <!-- Email input and button container for user sign-up -->
+            <div class="email__form__container">
+              <!-- Email input field container -->
+              <div class="form__container">
+                <!-- Input field for the email -->
+                <input type="email" class="email__input" placeholder=" " />
+                <!-- Label for the email input field -->
+                <label class="email__label">Email Address</label>
+              </div>
+              <!-- "Get Started" button for submitting the email -->
+              <button class="primary__button1">
+                Get Started <i id="falfa-chevron-right" class="fal fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section for additional features of Netflix -->
+      <section id="second">
+        <!-- Feature 1: Watch on TV -->
+        <div id="feature1">
+          <div id="f1left">
+            <!-- Title and subtitle for the first feature -->
+            <h3 class="left_title">Enjoy on your TV.</h3>
+            <h5 class="left_subtitle">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </h5>
+          </div>
+          <div id="f1right">
+            <!-- Image and video demonstrating watching on TV -->
+            <img src="assets/tv.png" alt="" />
+            <video src="assets/1538075725687032321.mp4" autoplay loop muted></video>
+          </div>
+        </div>
+
+        <!-- Feature 2: Download shows to watch offline -->
+        <div id="feature2">
+          <div id="f2left">
+            <!-- Image for mobile offline watching -->
+            <img src="assets/mobile-0819.jpg" alt="" />
+            <div id="f2left-poster">
+                <div id="div1"><img src="boxshot.png" alt=""></div>
+                <div id="div2">
+                    <h4>Stranger Things</h4>
+                    <h6>Downloading...</h6>
+                   
+                </div>
+                <div id="div3"><img src="download-icon.gif" alt=""></div>
+            </div>
+          </div>
+          <div id="f2right">
+            <!-- Title and subtitle for the second feature -->
+            <h3 class="feature__title">
+              Download your shows to <br />watch offline.
+            </h3>
+            <h5 class="feature__sub__title">
+              Save your favourites easily and always have <br />
+              something to watch.
+            </h5>
+          </div>
+        </div>
+        <!-- feature 3 -->
+        <div id="feature3">
+          <div id="f3left">
+            <h3 class="feature3__title">Watch everywhere.</h3>
+            <h5 class="feature3__sub__title">
+              Stream unlimited movies and TV shows on your <br />phone, tablet,
+              laptop, and TV.
+            </h5>
+          </div>
+          <div id="f3right">
+            <img src="device-pile-in.png" alt="" />
+            <video src="video-devices-in.m4v" autoplay loop muted></video>
+          </div>
+        </div>
+        <!-- feature4 -->
+        <div id="feature4">
+            <div id="f4-left"><img src="cartoon.png" alt=""></div>
+            <div id="f4-right">  <h3 class="feature4__title">Create profiles for <br> children.</h3>
+                <h5 class="feature4__sub__title">
+                  Send children on adventures with their favourite characters in a
+                  space made just for them—free with your membership.</div>
+    </div>
+    <div id="feature5">
+      <div id="f5heading"><h1>Frequently Asked Questions</h1>
+      <div id="email-container"><input type="email" class="email__input" placeholder=" " />
+        <label class="email_label">Email Address</label><button class="primary__button2">
+          Get Started <i class="ri-arrow-right-s-line"></i>
+        </button></div>
+      </div>
+        <div id="f5-container">
+            <button id="button-f">What is Netflix? <i class="ri-add-line"></i></button>
+            <button id="button-f"> How much does netflix cost? <i class="ri-add-line"></i></button>
+            <button id="button-f"> Where can i watch? <i class="ri-add-line"></i></button>
+            <button id="button-f">How do I cancle? <i class="ri-add-line"></i></button>
+            <button id="button-f"> What can I watch from Netflix? <i class="ri-add-line"></i></button>
+            <button id="button-f"> Is Netflix good for kids? <i class="ri-add-line"></i></button> 
+            <br>
+            <br>
+            <p id="f5-para">
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p> 
+        </div>
+
+    </div>
+      </section>
+      <footer>
+        <div class="footer__row__1">
+          <h4>Questions? Call 000-800-040-1843</h4>
+        </div>
+        <div class="footer__row__2">
+          <div class="column__1">
+            <p>FAQ</p>
+            <p>Investor Relations</p>
+            <p>Privacy</p>
+            <p>Speed Test</p>
+          </div>
+          <div class="column__2">
+            <p>Help Centre</p>
+            <p>Jobs</p>
+            <p>Cookie Preferences</p>
+            <p>Legal Notices</p>
+          </div>
+          <div class="column__3">
+            <p>Account</p>
+            <p>Ways to Watch</p>
+            <p>Corporate Information</p>
+            <p>Only on Netflix</p>
+          </div>
+          <div class="column__4">
+            <p>Media Centre</p>
+            <p>Terms of Use</p>
+            <p>Contact Us</p>
+          </div>
+        </div>
+        <div class="footer__row__3">
+          <div class="dropdown__container">
+            <button id="footer-button"><i class="ri-translate-2"></i> English <i class="ri-arrow-down-s-line"></i></button>
+          </div>
+        </div>
+        <div class="footer__row__4">
+          <p>Copyright HARSHIT TIWARI</p>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

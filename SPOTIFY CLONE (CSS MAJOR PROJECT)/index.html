@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="navbar">
+        <img src="Spotify_social_media_logo-1024.webp" alt="" />
+        <div id="home-img">
+          <img id="home" src="home (1).svg" alt="" class="white-svg" />
+        </div>
+
+        <div id="search-box">
+          <i class="ri-search-line"></i>
+          <h1>What do you want to play?</h1>
+          <div id="line"></div>
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
+        <div id="nav-right">
+          <a href="#">Premium</a>
+          <a href="#">Support</a>
+          <a href="#">Download</a>
+          <div id="line-right"></div>
+
+          <i class="ri-arrow-down-circle-line"></i>
+          <h1>Install App</h1>
+          <a id="signup" href="#">Sign up</a>
+          <button>Log in</button>
+        </div>
+      </div>
+      <div id="hero">
+        <div id="div1">
+          <div id="div-top">
+            <img src="playlist.svg" alt="" class="svg-icon" />
+            <h1>Your Library</h1>
+            <div id="itag">
+              <i id="ri-add-line" class="ri-add-line"></i> <i id="toggleBtn" class="ri-arrow-right-line"></i>
+            </div>
+          </div>
+          <div id="div-mid">
+            <h1>Create your first playlist</h1>
+            <h2>it's easy,we'll help you</h2>
+            <button id="create-playlist">Create playlist</button>
+          </div>
+          <div id="div-last">
+            <h1>Lets's find some podcast to follow</h1>
+            <h2>we'll keep you updated on new episodes</h2>
+            <button id="Browse">Browse podcasts</button>
+          </div>
+          <div id="div-end">
+            <div id="h1">
+              <h4>Legal</h4>
+              <h4>Safety & center</h4>
+              <h4>Privacy Policy</h4>
+            </div>
+            <div id="h2">
+              <h4>Cookies</h4>
+              <h4>About Ads</h4>
+              <h4>Accessibility</h4>
+            </div>
+            <div id="h3">
+              <h4>Cookies</h4>
+            </div>
+
+            <button id="language">
+              <i class="ri-global-line"></i> English
+            </button>
+          </div>
+        </div>
+
+        <div id="div2">
+          <!-- artist images -->
+          <div class="heading">
+            <h1>Popular artists</h1>
+            <h4>Show all</h4>
+          </div>
+          <div id="artist">
+            <div class="artist-name">
+              <div class="circle">
+                <img
+                  src="ab6761610000e5ebcb6926f44f620555ba444fca.jpg"
+                  alt="pritam"
+                />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+              <h2>Pritam</h2>
+              <h3>Artist</h3>
+            </div>
+
+            <div class="artist-name">
+              <div class="circle">
+                <img src="th (1).jpg" alt="arijit singh" />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+
+              <h2>Arijit singh</h2>
+              <h3>Artist</h3>
+            </div>
+
+            <div class="artist-name">
+              <div class="circle">
+                <img src="th (2).jpg" alt="ar rahman" />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+
+              <h2>A.R.Rehman</h2>
+              <h3>Artist</h3>
+            </div>
+
+            <div class="artist-name">
+              <div class="circle">
+                <img src="dr.jpg" alt="" />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+
+              <h2>Darshan Rawal</h2>
+              <h3>Artist</h3>
+            </div>
+
+            <div class="artist-name">
+              <div class="circle">
+                <img
+                  src="ab6761610000e5eb90b6c3d093f9b02aad628eaf.jpg"
+                  alt=""
+                />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+
+              <h2>Vishal-Shekhar</h2>
+              <h3>Artist</h3>
+            </div>
+
+            <div class="artist-name">
+              <div class="circle">
+                <img src="th (4).jpg" alt="" />
+              </div>
+              <div id="playback"><i class="ri-play-large-fill"></i></div>
+              <h2>Atif Aslam</h2>
+              <h3>Artist</h3>
+            </div>
+          </div>
+        
+          <div id="head-2" class="heading">
+            <h1>Popular albumbs and singles</h1>
+            <h4>Show all</h4>
+          </div>
+          <div id="artist">
+            <!-- 1st -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.aIKHwmsQgogPIvMpOnjPQQAAAA&pid=Api&P=0&h=180"
+                  alt="pritam"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>Aashiqui 2</h2>
+              <h3>Mithoon,Ankit Tiwari,Jeet <br />Gannguli</h3>
+            </div>
+           
+            <!-- 2nd -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.8r73eYyx59IJXpJZlPEREQHaHa&pid=Api&P=0&h=180"
+                  alt="arijit singh"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>Glory</h2>
+              <h3>Yo Yo Honey Singh</h3>
+            </div>
+            <!-- 3rd -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.wY2t5GSTA4ThxKQ5ybHIBAAAAA&pid=Api&P=0&h=180"
+                  alt="ar rahman"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>sanam teri kasam</h2>
+              <h3>Himesh Reshammaiya</h3>
+            </div>
+            <!-- 4th -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.3YEwcVVSvr3tc4y3M_0HegHaHa&pid=Api&P=0&h=180"
+                  alt="darshan rawal"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>Making memories</h2>
+              <h3>Karan Aujala,Ikky</h3>
+            </div>
+            <!-- 5th -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://c.saavncdn.com/401/Jo-Tum-Mere-Ho-Hindi-2024-20240731053953-500x500.jpg"
+                  alt="vishal-shekhar"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>Jo Tum Mere Ho</h2>
+              <h3>Anuv Jain</h3>
+            </div>
+            <!-- 61h -->
+            <div class="song-name">
+              <div class="rectangle">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.C0hSKXF41mKQIkVYyp3ZigHaHa&pid=Api&P=0&h=180" alt="anirudh ravichander"/>
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h2>Die With A Smile</h2>
+              <h3>Lady Gaga,Bruno Mars</h3>
+            </div>
+          </div>
+
+          <!-- radio -->
+          <div id="head-3" class="heading">
+            <h1>Popular radio</h1>
+            <h4>Show all</h4>
+          </div>
+          
+          <div id="artist">
+            <!-- 1st -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.kdF98875L1mZByfQaYTL3gHaHa&pid=Api&P=0&h=180"
+                  alt="arijit singh"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+               <h3>With Sachin-Jigar,<br>Vishal Mishra-...</h3>
+            </div>
+            
+            <!-- 2nd -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.3FNQpZihPp36WBRG1AJ2lgHaHa&pid=Api&P=0&h=180"
+                  alt="arijit singh"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>With Armaan Malik,Mohit <br>Chauhan,Ankit Tiwari and...</h3>
+            </div>
+            
+            <!-- 3rd -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.UorJdY5WtCPw1CdCIBpXdgHaHa&pid=Api&P=0&h=180"
+                  alt="ar rahman"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>With A.R.Rahman, Vishal- <br> Shekhar,Atif Aslam and...</h3>
+            </div>
+            
+            <!-- 4th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.qjeApa4mkqWCKLiFJ3GXSwHaHa&pid=Api&P=0&h=180"
+                  alt="darshan rawal"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>With Shubh, Karan Aujla, <br> Sidhu Moose Wala and more</h3>
+            </div>
+            
+            <!-- 5th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.1uSL1PBczhaSgi0L1JQBkQHaHa&pid=Api&P=0&h=180"
+                  alt="vishal-shekhar"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>With Anirudh Ravichander, <br> Harris Jayaraj,Santosh...</h3>
+            </div>
+            
+            <!-- 6th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.jpxZNfS-0YHPSxyfVhCS-QHaHa&pid=Api&P=0&h=180"
+                  alt="anirudh ravichander"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>With Asha Bhosale,<br> Mohammed Rafi, mukesh...</h3>
+            </div>
+          </div>
+          
+          <!-- indias best  -->
+          <div id="head-3" class="heading">
+            <h1>Indias Best</h1>
+            <h4>Show all</h4>
+          </div>
+          
+          <div id="artist">
+            <!-- 1st -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.DJ229Tpms5pZ9caDTFpUjQHaHa&pid=Api&P=0&h=180"
+                  alt="arijit singh"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+               <h3>Ultimate 101 Punjab Hits <br>with Shubh<h3>
+            </div>
+            
+            <!-- 2nd -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse2.mm.bing.net/th?id=OIP.B3OwwdBxSkD15SwXglOWYQHaHa&pid=Api&P=0&h=180"
+                  alt="arijit singh"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>Finnest collection of Tamil <br>Music from past 10 years</h3>
+            </div>
+            
+            <!-- 3rd -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.uWFkG_I2r68lJaKZKfk78wAAAA&pid=Api&P=0&h=180"
+                  alt="ar rahman"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>Finnest set of telgu <br> Music from past 10 years </h3>
+            </div>
+            
+            <!-- 4th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.FI_ozwm4FyTEX5vLMuL6ZAAAAA&pid=Api&P=0&h=180"
+                  alt="darshan rawal"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>India's Rap Scene.Cover<br> Sidhu Moose Wala </h3>
+            </div>
+            
+            <!-- 5th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.2RGHVShuf-C-epbMVB86vAHaHa&pid=Api&P=0&h=180"
+                  alt="vishal-shekhar"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>Best of the Indian Indie <br> scene.Cover-Paresh Pahuja </h3>
+            </div>
+            
+            <!-- 6th -->
+            <div class="popular-radio">
+              <div class="rectangle">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.rFPQhXsa2al4UwHqhFmJGAAAAA&pid=Api&P=0&h=180"
+                  alt="anirudh ravichander"
+                />
+              </div>
+              <div id="playback">
+                <i class="ri-play-large-fill"></i>
+              </div>
+              <h3>Catch all the Bhojpuri top <br> hits.Cover:Pawan Singh  </h3>
+            </div>
+          </div>
+          
+          <div id="div2-footer">
+            <div class="footer-c" id="footer-c1">
+             <h4>Company</h5>
+             <h5>About</h5>
+             <h5>Jobs</h5>
+             <h5>For the Record</h5>
+            </div>
+
+            <div class="footer-c" id="footer-c2">
+             <h4>Communities</h5>
+             <h5>For Artists</h5>
+             <h5>Developers</h5>
+             <h5>Advertising</h5>
+             <h5>Investors</h5>
+             <h5>Vendors</h5>
+            </div>
+
+            <div class="footer-c" id="footer-c3">
+             <h4>Useful links</h5>
+             <h5>Support</h5>
+             <h5>Free Mobile App</h5>
+            </div>
+
+
+            <div class="footer-c" id="footer-c4">
+              <h4>Spotify Plans</h5>
+                <h5>Premium </h5>
+                <h5>Premium Duo</h5>
+                <h5>Premium Family
+                </h5>
+                <h5>Premium Student
+                </h5>
+                <h5>Spotify Free
+                </h5>
+            </div>
+
+            <div class="footer-c" id="footer-c5">
+             <div id="insta"><i class="ri-instagram-line"></i></div> 
+             <div id="twitter"> <i class="ri-twitter-fill"></i></div>
+             <div id="fb"> <i class="ri-facebook-circle-fill"></i></div>
+            </div>
+          </div>
+          <hr>
+          <div id="copyright">
+           <h4>  <i class="ri-copyright-line"></i>2025 HT </h4>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div id="one"><h2>Preview of Spotify <br> Sign up to gett unlimited songs and podcasts with occasional ads. No credit card needed</h2></div>
+        <button id="free">Sign up for free</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

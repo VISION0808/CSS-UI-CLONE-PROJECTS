@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop jackert</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="main">
+       <div id="navbar">
+        <a href="#">About</a>
+        <a href="#">News</a>
+        <a href="#">Cart</a>
+        <div id="button"> <i class="ri-shopping-bag-line"></i></div>
+       </div>
+       <div id="hero-1">
+        <h1>Lightly padded,<br>quilted jacket in <br>recycled polyster.</h1>
+       </div>
+       <div id="hero-2">
+        <h1>Exclusive brands aspire for the lable haute <br>courture, but the term is technically limited to <br>menmber of the Chambre Synduicale de la Haute</h1>
+       <div class="right">
+        <div id="div1"><a href="#">Add to cart</a><i class="ri-arrow-right-up-line"></i></div>
+        <div id="div2"><a href="#">Product details</a><i class="ri-arrow-right-up-line"></i></div>
+        <div id="div3"><a href="#">Shipping </a><i class="ri-arrow-right-up-line"></i></div>
+       </div>
+       </div>
+       <div id="footer"><img src="161628dd-048b-42d6-9572-79e361bddbb1.webp" alt=""></div>
+       <div id="footer-content"></div>
+    </div>
+    
+    <script>// Wait until the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", () => {
+          // Function to add animation class when an element is in view
+          const animateOnScroll = (entries, observer) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("in-view");
+                observer.unobserve(entry.target); // Stop observing once animated
+              }
+            });
+          };
+        
+          // Create a new Intersection Observer
+          const observer = new IntersectionObserver(animateOnScroll, {
+            threshold: 0.2, // Trigger when 20% of the element is visible
+          });
+        
+          // Select elements to animate
+          const elementsToAnimate = document.querySelectorAll("#hero-1, #hero-2, .right, #footer");
+          
+          // Observe each element
+          elementsToAnimate.forEach(el => {
+            el.classList.add("hidden"); // Start hidden for animation effect
+            observer.observe(el);
+          });
+        });
+        </script>
+      
+</body>
+</html>
